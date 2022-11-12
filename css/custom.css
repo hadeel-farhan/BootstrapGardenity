@@ -1,0 +1,19 @@
+body {
+    color: #603D43;
+    background-color: #FFF3E5;
+}
+
+nav {
+    background-color: #5F7346;
+}
+
+a {
+    color: #FFF3E5;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #C7AE92;
+    text-decoration: underline;
+}
