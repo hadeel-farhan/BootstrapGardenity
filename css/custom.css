@@ -29,6 +29,10 @@ a:hover {
     background-color: #6D8CBB;
 }
 
+.btn {
+    border: none;
+}
+
 .garden-main {
     margin-top: 2rem;
     padding: 5rem;
@@ -48,4 +52,60 @@ a:hover {
 
 .plot:hover {
     background-color: #B0968B;
+}
+
+/* Sidebar CSS */
+
+.wrapper {
+    width: 100%;
+    align-items: stretch;
+    display: flex;
+    background-color: #F5E3CD;
+    color: #603D43;
+    position: fixed;
+    top: 25rem;
+    height: 100rem;
+
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar {
+    padding: 2rem;
+}
+
+.sidebar-section {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.plant-element,
+.person-element,
+.task-element {
+    background-color: white;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.task-box {
+    background-color: #AB8E81;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.components {
+    display: flex;
+    text-align: center;
+}
+
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
 }
