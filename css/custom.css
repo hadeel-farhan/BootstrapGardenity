@@ -1,6 +1,7 @@
 body {
     color: #603D43;
     background-color: #FFF3E5;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 nav {
@@ -16,4 +17,18 @@ a {
 a:hover {
     color: #C7AE92;
     text-decoration: underline;
+}
+
+.header-title {
+    margin-top: 6rem;
+    width: 70rem;
+}
+
+.btn-primary {
+    border: none;
+    background-color: #6D8CBB;
+}
+
+.offset-lg-1 {
+    background-color: #9AB874;
 }
