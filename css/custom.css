@@ -29,6 +29,19 @@ a:hover {
     background-color: #6D8CBB;
 }
 
-.offset-lg-1 {
+.garden-main {
+    margin-top: 2rem;
+    padding: 5rem;
+    width: 60rem;
+    height: 20rem;
+    border-radius: 0.5rem;
     background-color: #9AB874;
+}
+
+.plot {
+    background-color: #8E5C47;
+    border-radius: 0.2rem;
+    color: #FFF3E5;
+    padding: 0.5rem 2rem 2rem 0.8rem;
+    width: 20rem;
 }
